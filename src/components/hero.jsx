@@ -9,7 +9,7 @@ function Hero() {
                         <h1 className="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose">The Taste You know</h1>
                         <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">The Value you dont
                         </h2>
-                        <p className="text-sm md:text-base text-black mb-4">Fuck prakahr Imma choke slame him </p>
+                        <p className="text-sm md:text-base text-gray-50 mb-4">Fuck prakahr Imma choke slame him </p>
                         <a href="#"
                             className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
                             Explore Now</a>
