@@ -13,7 +13,7 @@ function Glow() {
                     </div>
                     <div className="p-5  rounded-lg flex items-center justify-center space-x-8">
 
-                        <p className="text-5xl font-bold ">The Value You Don't</p>
+                        <p className="text-5xl font-bold ">The Value You Don&apos;t</p>
                     </div>
                     <div className="p-6 bg-white rounded-lg flex items-center justify-between space-x-8">
                         <div className="flex-1">
@@ -28,8 +28,8 @@ function Glow() {
             <div className="relative w-full flex items-center justify-center ">
                 <img src="src/assets/childimg.png" />
                 <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-                {/* <div className="absolute -bottom-8 -right-20 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-5000"></div> */}
+                <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-1000"></div>
+                <div className="absolute -bottom-8 -right-20 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
                 <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
 
             </div>
