@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/navbar'
 import Header from '../components/header'
 import Login from '../components/login'
 import Footer from '../components/footer'
+import Modal from '../components/Modal'
 
 export default function LoginPage(){
+    const [showModal, setShowModal] = useState(false)
+
+    const toggleModal = () => {
+        setShowModal(!showModal)
+    }
+
     return(
         <div>
             <Navbar />
@@ -15,11 +22,11 @@ export default function LoginPage(){
                 linkUrl="/signup"
             />
             <Login />
-            <div className="mt-10">
-            <Footer />    
+            <div className="mt-10 flex flex justify-center">
+                <button onClick={toggleModal}>+</button>
+                {showModal && <Modal />}
             </div>
-        
-            
+            <Footer />
         </div>
     )
 }
