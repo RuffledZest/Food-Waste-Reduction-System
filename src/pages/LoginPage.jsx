@@ -15,7 +15,11 @@ export default function LoginPage(){
                 linkUrl="/signup"
             />
             <Login />
-            <Footer />
+            <div className="mt-10">
+            <Footer />    
+            </div>
+        
+            
         </div>
     )
 }
