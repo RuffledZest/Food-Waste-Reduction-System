@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { React, useState } from "react";
 
 export default function Modal() {
   const [showModal, setShowModal] = useState(false);
@@ -9,7 +9,17 @@ export default function Modal() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!name || !email || !phone || !company) {
+      alert("All fields are required.");
+      return;
+    }
+
     // Do something with the form data (e.g. send it to a server)
+    setShowModal(false);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   return (
@@ -25,21 +35,21 @@ export default function Modal() {
         <>
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                   <h3 className="text-3xl font-semibold">Registration Form</h3>
                   <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
+                    className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                    onClick={closeModal}
                   >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
+                    
+                    <div className="bg-transparent text-black   text-2xl block outline-none focus:outline-none">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="black" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                      </svg>
+                    </div>
                   </button>
                 </div>
-                {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <form onSubmit={handleSubmit}>
                     <label htmlFor="name">Name:</label>
@@ -96,4 +106,6 @@ export default function Modal() {
   );
 }
 
-//export default Modal;
+
+
+
