@@ -29,6 +29,7 @@ function TileDonor() {
                 </svg>
                 <p className="text-blue-800">
                     ADD ITEM</p></div>
+                    
 
             <div className="">
                 <h2 className="text-2xl font-bold mb-2 text-white -bottom-10 -right-10 w-1/2 h-1/2">Make a new post</h2>

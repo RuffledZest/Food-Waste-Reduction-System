@@ -1,3 +1,4 @@
+
 function ChooseRole() {
     return <div>
         <h1 className="text-5xl tracking-widest my-3 text-center">Join Our Path and Be A Part of Our Journey</h1>
@@ -7,6 +8,7 @@ function ChooseRole() {
                 <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-transparent backdrop-blur-sm bg-emerald-300 transition-all duration-500"></div>
                 <div className="absolute flex flex-col text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-transparent backdrop-blur-md transition-all duration-500">
                 <h1 className="p-3 text-4xl bg-gradient-to-r from-rose-800 via-rose-500 to-rose-300 inline-block text-transparent bg-clip-text">Join Us!</h1>
+                    
                     <svg className="w-7 h-7 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>

@@ -4,12 +4,12 @@ import Header from '../components/header'
 import Signup from '../components/signup'
 import Footer from '../components/footer'
 
-export default function SignupPage(){
+export default function SignupPagephil(){
     return(
         <div>
             <Navbar/>
             <Header
-              heading="Signup to create an User account"
+              heading="Signup to create a Philanthrophist account"
               paragraph="Already have an account? "
               linkName="Login"
               linkUrl="/"
@@ -23,5 +23,3 @@ export default function SignupPage(){
         </div>
     )
 }
-
-//export default SignupPage

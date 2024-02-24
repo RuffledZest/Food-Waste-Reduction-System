@@ -2,15 +2,19 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {
-  createBrowserRouter,
-  RouterProvider,
+  BrowserRouter,
+  Route,
+  Routes,
 } from "react-router-dom";
 import './index.css'
-<<<<<<< HEAD
 import LoginPage from './pages/LoginPage.jsx';
 import SignupPage from './pages/SignupPage.jsx';
+import RecieverDash from '../recieverDash.jsx';
+import DonorDash from './donorDash.jsx';
+import LoginPagephil from './pages/LoginPagephil.jsx';
+import SignupPagephil from './pages/SignupPagephil.jsx';
 
-const router = createBrowserRouter([
+const routes = [
   {
     path: "/",
     element: <App/>,
@@ -23,20 +27,32 @@ const router = createBrowserRouter([
     path: "/signup",
     element: <SignupPage/>,
   },
-]);
+  {
+    path: "/recieverdash",
+    element: <RecieverDash/>,
+  },
+  {
+    path: "/donordash",
+    element: <DonorDash/>,
+  },
+  {
+    path: "/loginphil",
+    element: <LoginPagephil/>,
+  },
+  {
+    path: "/signupphil",
+    element: <SignupPagephil/>,
+  },
+];
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-    
-=======
-import DonorDash from './donorDash.jsx'
-import RecieverDash from '../recieverDash.jsx'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <DonorDash /> */}
-    <App />
->>>>>>> e623a59fe6d44752b67b7a9e48e5c134f74fe14d
+    <BrowserRouter>
+      <Routes>
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
 )

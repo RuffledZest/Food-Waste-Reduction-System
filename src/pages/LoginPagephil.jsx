@@ -5,7 +5,7 @@ import Login from '../components/login'
 import Footer from '../components/footer'
 import Modal from '../components/Modal'
 
-export default function LoginPage(){
+export default function LoginPagephil(){
     const [showModal, setShowModal] = useState(false)
 
     const toggleModal = () => {
@@ -16,7 +16,7 @@ export default function LoginPage(){
         <div>
             <Navbar />
             <Header
-                heading="Login to your User account"
+                heading="Login to your Philanthrophist account"
                 paragraph="Don't have an account yet? "
                 linkName="Signup"
                 linkUrl="/signup"

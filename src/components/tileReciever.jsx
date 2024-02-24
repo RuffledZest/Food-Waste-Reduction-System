@@ -67,6 +67,8 @@ function TileReciever() {
                     Quantity: 20kg
                     <br />
                     Expiry: 20/10/2022
+                    
+                   
                 </p>
             </div>
             <button
