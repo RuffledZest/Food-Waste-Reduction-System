@@ -19,7 +19,7 @@ export default function login(){
         <div className="-space-y-px">
             {
                 fields.map(field=>
-                        <Input
+                        <input
                             key={field.id}
                             handleChange={handleChange}
                             value={loginState[field.id]}
