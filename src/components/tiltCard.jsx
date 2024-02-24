@@ -9,7 +9,7 @@ const Card = () => {
         "“We live in a world where we grow enough food to feed everyone, yet one-third of all food produced is wasted.”",
         "“End hunger, achieve food security and improved nutrition and promote sustainable agriculture.” ",
         "“Food waste is not a victimless crime. Its time for us all to take responsibility for the food we chuck in the bin.” ",
-        "“Imma choke prakhar till he dies”",
+        "“This is for quote 4”",
     ];
     let speakers = [
         "José Graziano da Silva",
