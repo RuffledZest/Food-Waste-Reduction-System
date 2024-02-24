@@ -9,7 +9,7 @@ function Navbar() {
           </div>
           <ul className="flex items-center space-x-6">
           <li className="font-semibold text-black hover:text-blue-800 hover:scale-110 hover:underline transition duration-2000">Home</li>
-            <li className="font-semibold text-black hover:text-orange-500 hover:scale-110 hover:underline transition duration-2000">Articles</li>
+            <li className="font-semibold text-black hover:text-orange-500 hover:scale-110 hover:underline transition duration-2000">Quotes</li>
             <li className="font-semibold text-black hover:text-green-500 hover:scale-110 hover:underline transition duration-2000">About</li>
             <li className="font-semibold text-black hover:text-purple-500 hover:scale-110 hover:underline transition duration-2000">Join Us</li>
             <li>
