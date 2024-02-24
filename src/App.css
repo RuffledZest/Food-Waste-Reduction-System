@@ -1,0 +1,5 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    transition: ease-in-out;
+}

@@ -8,6 +8,6 @@ import RecieverDash from '../recieverDash.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <DonorDash /> */}
-    <RecieverDash />
+    <App />
   </React.StrictMode>,
 )
