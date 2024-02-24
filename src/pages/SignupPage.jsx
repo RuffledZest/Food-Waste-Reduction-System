@@ -1,9 +1,27 @@
 import React from 'react'
+import Navbar from '../components/navbar'
+import Header from '../components/header'
+import Signup from '../components/signup'
+import Footer from '../components/footer'
 
-const SignupPage = () => {
-  return (
-    <div>SignupPage</div>
-  )
+export default function SignupPage(){
+    return(
+        <div>
+            <Navbar/>
+            <Header
+              heading="Signup to create an account"
+              paragraph="Already have an account? "
+              linkName="Login"
+              linkUrl="/"
+            />
+            <Signup/>
+            <div className="mt-10">
+            <Footer/>
+
+            </div>
+            
+        </div>
+    )
 }
 
-export default SignupPage
+//export default SignupPage
