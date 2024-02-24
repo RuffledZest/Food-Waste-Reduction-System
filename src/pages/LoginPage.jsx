@@ -22,7 +22,7 @@ export default function LoginPage(){
                 linkUrl="/signup"
             />
             <Login />
-            <div className="mt-10 flex flex justify-center">
+            <div className="mt-10 flex justify-center">
                 <button onClick={toggleModal}>+</button>
                 {showModal && <Modal />}
             </div>
