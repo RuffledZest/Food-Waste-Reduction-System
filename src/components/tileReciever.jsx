@@ -60,7 +60,7 @@ function TileReciever() {
             </div>
           </div>
         ) : (
-        <div className="px-5 py-10 gap-20 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3  sm:grid-cols-1">
+        <div className="px-20 py-10 gap-20 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3  sm:grid-cols-1">
             {/* tile 1 */}
             {isDataLoaded && csvData.map((row, index) => {
             const randomImageUrl = images[Math.floor(Math.random() * images.length)]

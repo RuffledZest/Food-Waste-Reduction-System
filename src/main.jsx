@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <DonorDash /> */}
     {/* <App/> */}
-    {/* <DonorDash/> */}
-    <RecieverDash />
+    <DonorDash/>
+    {/* <RecieverDash /> */}
   </React.StrictMode>,
 )

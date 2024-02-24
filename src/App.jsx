@@ -8,6 +8,13 @@ import ChooseRole from "./components/chooseRole";
 import Navbar from "./components/navbar";
 import Card from "./components/tiltCard";
 function App(){
+  const dataRef = useRef()
+ 
+  const submithandler = (e) => {
+    e.preventDefault()
+    handleSubmit(dataRef.current.value)
+    dataRef.current.value = ""
+  }
   return <div>
     <Navbar/>
     {/* <Hero/> */}
@@ -17,7 +24,12 @@ function App(){
     <Card/>
     <About1/>
     <ChooseRole/>
-    <PinContainer/>
+    <div className="App">
+      <form onSubmit={submithandler}>
+        <input type= "text" ref={dataRef} />
+        <button type = "submit">Save</button>
+      </form>
+    </div>
     <Footer/>
   </div>
 
