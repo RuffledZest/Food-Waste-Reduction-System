@@ -7,7 +7,7 @@ import Glow from "./components/glow";
 import ChooseRole from "./components/chooseRole";
 import Navbar from "./components/navbar";
 import Card from "./components/tiltCard";
-
+import FetchCSVData from "./components/fetchData";
 function App(){
   return <div>
     <Navbar/>
@@ -18,6 +18,7 @@ function App(){
     <Card/>
     <About1/>
     <ChooseRole/>
+    <FetchCSVData/>
     <PinContainer/>
     <Footer/>
   </div>
