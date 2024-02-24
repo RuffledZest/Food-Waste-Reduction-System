@@ -19,7 +19,7 @@ function App(){
     <About1/>
     <ChooseRole/>
     <FetchCSVData/>
-    <PinContainer/>
+    {/* <PinContainer/> */}
     <Footer/>
   </div>
 

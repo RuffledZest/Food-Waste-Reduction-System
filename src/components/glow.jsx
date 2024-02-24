@@ -1,3 +1,5 @@
+import ButtonHeroSection from "./buttonHeroSection";
+
 function Glow() {
     return <div>
         <div className="bg-white min-h-screen flex items-center justify-center px-20">
@@ -17,10 +19,11 @@ function Glow() {
                     </div>
                     <div className="p-6 bg-white rounded-lg flex items-center justify-between space-x-8">
                         <div className="flex-1">
-                            <div className="h-7 w-60 bg-gray-300 rounded flex items-center justify-center hover:bg-green-500 hover:scale-110 transition duration-3000">Join Us and Make a difference</div>
+                            {/* <button className="h-7 w-60 bg-gray-300 rounded flex items-center justify-center hover:bg-green-500 hover:scale-110 transition duration-3000">Join Us and Make a difference</button> */}
+                            <ButtonHeroSection/>
                         </div>
                         <div>
-                            <div className="w-28 h-6 rounded-lg bg-pink-300"></div>
+                            {/* <div className="w-28 h-6 rounded-lg bg-pink-300"></div> */}
                         </div>
                     </div>
                 </div>
