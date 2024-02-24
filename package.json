@@ -10,12 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.22.1",
+=======
+    "axios": "^1.6.7",
+    "clsx": "^2.1.0",
+    "dom": "^0.0.3",
+    "framer-motion": "^11.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.1",
+    "router": "^1.3.8",
+>>>>>>> e623a59fe6d44752b67b7a9e48e5c134f74fe14d
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
