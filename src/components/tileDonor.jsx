@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const AddItemModal = ({ closeModal }) => {
     const handleSubmit = (e) => {
       e.preventDefault();
+      
       // Add your form submission logic here
       // You may want to send the form data to your server or perform other actions
       closeModal(); // Close the modal after submission
@@ -45,23 +46,23 @@ const AddItemModal = ({ closeModal }) => {
   // Styles
   const styles = {
     modalOverlay: {
-      width: '100%',
+      width: '450px',
       height: '100%',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      zIndex:"500",
+      zIndex:"800",
       
     },
     modalContainer: {
-        position: 'absolute',
-        left:"500px",
-        background: '#fff',
-        padding: '20px',
-        borderRadius: '8px',
-        boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-        width: '500px',
-        maxWidth: '400px', // Added for close button positioning
+        border: '3px solid',
+      background: '#fff',
+      padding: '20px',
+      borderRadius: '8px',
+      boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+      width: '500px',
+      maxWidth: '400px',
+      zIndex:"10" // Added for close button positioning
     },
     close: {
       position: 'absolute',
@@ -147,7 +148,7 @@ function TileDonor() {
 
         {/* tile 2 */}
         <div
-            className="group flex flex-col justify-start items-start gap-2 w-80 h-56 duration-500 relative rounded-lg p-4 bg-gradient-to-br from-blue-800 to-black hover:-translate-y-2 hover:shadow-xl shadow-purple-400"
+            className="group z-1 flex flex-col justify-start items-start gap-2 w-80 h-56 duration-500 relative rounded-lg p-4 bg-gradient-to-br from-blue-800 to-black hover:-translate-y-2 hover:shadow-xl shadow-purple-400"
         >
             <div
 
