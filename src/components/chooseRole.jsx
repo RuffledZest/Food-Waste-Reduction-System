@@ -1,5 +1,5 @@
 function ChooseRole() {
-    return <div>
+    return <div id="join">
         <h1 className="text-5xl tracking-widest my-3 text-center">Join Our Path and Be A Part of Our Journey</h1>
         <section className="p-24 grid grid-cols-2 place-items-center">
             <div className="relative overflow-hidden w-80 h-96 rounded-3xl shadow-2xl cursor-pointer text-2xl font-bold bg-center bg-cover bg-[url('src/assets/donator.jpg')]">

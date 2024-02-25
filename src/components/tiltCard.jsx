@@ -107,7 +107,7 @@ const Card = () => {
           };
 
         return (
-            <div className="flex px-4 py-2 items-center justify-between">
+            <div id="quotes" className="flex px-4 py-2 items-center justify-between">
                 {quotes.map((quote, index) => (
                     <TiltCard key={index} quote={quote} speaker={speakers[index]} />
                 ))}

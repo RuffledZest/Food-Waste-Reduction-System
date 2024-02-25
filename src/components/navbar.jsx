@@ -1,3 +1,10 @@
+
+
+import { Link } from 'react-router-dom'
+import ScrollTo from './scrollTo';
+
+
+
 function Navbar() {
   return (
     <div>
@@ -5,13 +12,13 @@ function Navbar() {
         <h1 className="text-xl text-black font-bold">FWRS</h1>
         <div className="flex items-center">
           <div className="flex items-center">
-            
+                
           </div>
           <ul className="flex items-center space-x-6">
-          <li className="font-semibold text-black hover:text-blue-800 hover:scale-110 hover:underline transition duration-2000">Home</li>
-            <li className="font-semibold text-black hover:text-orange-500 hover:scale-110 hover:underline transition duration-2000">Quotes</li>
-            <li className="font-semibold text-black hover:text-green-500 hover:scale-110 hover:underline transition duration-2000">About</li>
-            <li className="font-semibold text-black hover:text-purple-500 hover:scale-110 hover:underline transition duration-2000">Join Us</li>
+          <li className="font-semibold text-black hover:text-blue-800 hover:scale-110 hover:underline transition duration-2000"><ScrollTo to="home">Home</ScrollTo></li>
+            <li className="font-semibold text-black hover:text-orange-500 hover:scale-110 hover:underline transition duration-2000"><ScrollTo to="quotes">Quotes</ScrollTo></li>
+            <li className="font-semibold text-black hover:text-green-500 hover:scale-110 hover:underline transition duration-2000"><ScrollTo to="about">About</ScrollTo></li>
+            <li className="font-semibold text-black hover:text-purple-500 hover:scale-110 hover:underline transition duration-2000"><ScrollTo to="join">Join Us</ScrollTo></li>
             <li>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

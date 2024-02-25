@@ -3,7 +3,7 @@
 const About1 = () => {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section id="about" className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex px-12 items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">

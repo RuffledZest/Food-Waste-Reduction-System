@@ -2,7 +2,7 @@ import ButtonHeroSection from "./buttonHeroSection";
 
 function Glow() {
     return <div>
-        <div className="bg-white min-h-screen flex items-center justify-center px-20">
+        <div id="home" className="bg-white min-h-screen flex items-center justify-center px-20">
             
             <div className="relative ">
                 <div className=" relative space-y-4">
