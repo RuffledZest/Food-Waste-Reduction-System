@@ -11,7 +11,7 @@ const About1 = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="src/assets/360_F_634294698_rsIoGEXR0tnRj18XvKord0d5s6CzZJu6.jpg"
+                      src="/assets/360_F_634294698_rsIoGEXR0tnRj18XvKord0d5s6CzZJu6.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                       
@@ -19,7 +19,7 @@ const About1 = () => {
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="src/assets/teamwork-in-homeless-shelter-royalty-free-image-1608327313__1_11zon.jpg"
+                      src="/assets/teamwork-in-homeless-shelter-royalty-free-image-1608327313__1_11zon.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -28,7 +28,7 @@ const About1 = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="src/assets/images.png"
+                      src="/assets/images.png"
                       alt=""
                       className="w-full rounded-2xl"
                     />

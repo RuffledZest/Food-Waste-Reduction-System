@@ -29,7 +29,7 @@ function Glow() {
                 </div>
             </div>
             <div className="relative w-full flex items-center justify-center ">
-                <img src="src/assets/childimg.png" />
+                <img src="/assets/childimg.png" />
                 <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
                 <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-1000"></div>
                 <div className="absolute -bottom-8 -right-20 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>

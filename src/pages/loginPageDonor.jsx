@@ -5,6 +5,9 @@ import Login from '../components/login'
 import Footer from '../components/footer'
 import Modal from '../components/Modal'
 
+
+
+
 export default function LoginPage(){
     const [showModal, setShowModal] = useState(false)
 

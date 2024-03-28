@@ -68,7 +68,7 @@ const Card = () => {
                         style={{
                             transform: "translateZ(75px)",
                             transformStyle: "preserve-3d",
-                            backgroundImage: "url('src/assets/Picture23112q.png')",
+                            backgroundImage: "url('/assets/Picture23112q.png')",
                             backgroundPosition: "center",
                             backgroundSize:"cover",
                             backgroundRepeat: "no-repeat",
